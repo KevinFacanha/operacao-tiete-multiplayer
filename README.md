@@ -1,6 +1,6 @@
-# Operacao Tiete - Fundacao MVP
+# Operação Tietê - Fundacao MVP
 
-multiplayer basico para 2 jogadores.
+multiplayer básico para 2 jogadores.
 
 ## Estrutura
 
@@ -42,7 +42,7 @@ Abra a URL que o Vite mostrar (normalmente `http://localhost:5173`).
 3. Use `WASD` ou setas em cada aba para mover seu cubo.
 4. Abra uma 3a aba na mesma room (`default`): deve aparecer `Sala cheia`.
 
-## Configuracões
+## Configurações
 
 - Room no client: constante `ROOM` em `client/src/main.ts`.
 - Porta do server: variavel de ambiente `PORT` (padrao `8080`).
