@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Operacao Tiete</string>
+    <string name="title_activity_main">Operacao Tiete</string>
+    <string name="package_name">com.kevin.operacaotiete</string>
+    <string name="custom_url_scheme">com.kevin.operacaotiete</string>
+</resources>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operacao Tiete</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div id="hud-debug" aria-hidden="true">
+        <span id="status">connecting</span>
+        <span id="my-id">-</span>
+        <span id="room">default</span>
+      </div>
+      <div id="full-message"></div>
+    </div>
+    <div id="mobile-controls">
+      <div id="joystick" aria-label="Joystick de movimento">
+        <div id="joystick-base"></div>
+        <div id="joystick-thumb"></div>
+      </div>
+      <div id="mobile-actions">
+        <button id="btn-heal" type="button" aria-label="Reparar">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="9.5" y="4.5" width="5" height="15" rx="1" />
+            <rect x="4.5" y="9.5" width="15" height="5" rx="1" />
+          </svg>
+        </button>
+        <button id="btn-shoot" type="button" aria-label="Atirar">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="5.3" fill="none" stroke-width="2.1" />
+            <circle cx="12" cy="12" r="1.7" />
+            <path d="M12 2.4V6.1M12 17.9v3.7M2.4 12h3.7M17.9 12h3.7" fill="none" stroke-width="2.1" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
